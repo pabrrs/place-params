@@ -9,9 +9,19 @@ npm install place-params
 
 # Usage
 
-<iframe height="400px" width="100%" src="https://repl.it/repls/ClumsyJadedMemorypool?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+### [Try it out on Repl.it](https://repl.it/repls/ClumsyJadedMemorypool)
 
-Try it out on [Repl.it](https://repl.it/repls/ClumsyJadedMemorypool)
+```js
+const baseUrl = 'http://api.io/users/:userId/roles/:roleId'
+const params = {
+    userId: 1,
+    roleId: 2
+}
+const url = placeParams(baseUrl, params)
+console.log(url)
+
+// returns: http://api.io/users/1/roles/2
+```
 
 # License
 MIT
