@@ -1,0 +1,31 @@
+{
+  "name": "place-params",
+  "version": "1.0.0",
+  "description": "Build URL with positional params by using javascript objects 🎰",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pabarros/place-params.git"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "url",
+    "params"
+  ],
+  "author": "Paulo Barros <paulo.alfredo.barros@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pabarros/place-params/issues"
+  },
+  "homepage": "https://github.com/pabarros/place-params#readme",
+  "devDependencies": {
+    "jest": "24.9.0"
+  }
+}
