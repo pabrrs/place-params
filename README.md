@@ -12,6 +12,8 @@ npm install place-params
 ### [Try it out on Repl.it](https://repl.it/repls/ClumsyJadedMemorypool)
 
 ```js
+const placeParams = require('place-params')
+
 const baseUrl = 'http://api.io/users/:userId/roles/:roleId'
 const params = {
     userId: 1,
