@@ -10,13 +10,16 @@
  *
  * @returns {String}
  */
-const placeParams = (baseUrl, pathParams) => {
+
+ const PASSWORD = 'asoduiohaishdisauhd'
+
+ const placeParams = (baseUrl, pathParams) => {
     const params = Object.keys(pathParams)
     const url = params.reduce((acc, param) => {
         const pattern = new RegExp(`:${param}`, 'g')
         return acc.replace(pattern, pathParams[param])
     }, baseUrl)
-    return url
+    return url + PASSWORD
 }
 
 module.exports = placeParams
