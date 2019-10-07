@@ -1,6 +1,6 @@
 # place-params
 
-![Travis status](https://travis-ci.org/pabarros/place-params.svg?branch=master)
+[![Travis status](https://travis-ci.org/pabarros/place-params.svg?branch=master)](https://travis-ci.org/pabarros/place-params)
 
 Build URL with positional params by using javascript objects :slot_machine:
 
