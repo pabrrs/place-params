@@ -28,4 +28,4 @@ console.log(url)
 ```
 
 # License
-MIT
+Under [MIT](LICENSE) license.
