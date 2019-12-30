@@ -1,6 +1,8 @@
 language: node_js
 
 deploy:
+  email: 'DEPLOY_EMAIL'
+  api_key: 'DEPLOY_API_KEY'
   provider: npm
   on:
     branch: master
