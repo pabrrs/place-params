@@ -1,6 +1,6 @@
 {
   "name": "place-params",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Build URL with positional params by using javascript objects 🎰",
   "main": "index.js",
   "directories": {
