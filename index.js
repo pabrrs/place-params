@@ -6,7 +6,7 @@
  * // returns: http://api.oi/users/1
  *
  * @param {String} baseUrl Canonical URL with params
- * @param {Array<Object>} pathParams Params with values to be replaced
+ * @param {Object} pathParams Params with values to be replaced
  *
  * @returns {String}
  */
